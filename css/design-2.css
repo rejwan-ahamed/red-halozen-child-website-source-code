@@ -1,0 +1,2702 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+:root {
+    --primarycolor: #F5F5F5;
+    --titlecolot: #000;
+    --footertitlecolor: #4E4E4E;
+    --navbarcolor: #fff;
+    --footerbodycolor: #fff;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: #000;
+    --formfieldcolor: #C4C4C4:
+}
+
+
+.darkmode {
+    --primarycolor: #161616;
+    --titlecolot: #FFFFFF;
+    --footertitlecolor: #908B8B;
+    --navbarcolo: #464646;
+    --footerbodycolor: #464646;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: rgb(255, 255, 255);
+}
+
+
+.darkmodes {
+    --primarycolor: #161616;
+    --titlecolot: #FFFFFF;
+    --footertitlecolor: #908B8B;
+    --navbarcolo: #464646;
+    --footerbodycolor: #464646;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: rgb(255, 255, 255);
+}
+
+
+.dark-theme {
+    --primarycolor: #161616;
+    --titlecolot: #FFFFFF;
+    --footertitlecolor: #908B8B;
+    --navbarcolo: #464646;
+    --footerbodycolor: #464646;
+    --footertitle: #5a5a5a;
+    --iconcolor: #525252;
+    --logocolor: rgb(255, 255, 255);
+}
+
+
+
+html,
+body {
+    overflow-x: hidden;
+    cursor: url(carser3.png), auto;
+
+}
+
+body {
+    background-color: var(--primarycolor);
+    font-family: 'General Sans', sans-serif;
+    cursor: url(carser3.png), auto;
+}
+
+/* bootstrap additional css castom codes */
+.row {
+    --bs-gutter-x: 1rem !important;
+    --bs-gutter-y: 0;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+   
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+
+/* my custom nav here */
+.navsections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #555;
+    font-family: 'General Sans', sans-serif;
+}
+
+.navsections .navleftside {
+    font-family: 'General Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 1rem 4rem;
+}
+
+.navsections .navleftside .navlogo {
+    color: var(--logocolor);
+}
+
+.navlogo a {
+    color: var(--titlecolot);
+
+
+}
+
+.navsections .navmidside {
+
+    padding: 1rem 0;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* background-color: lawngreen; */
+}
+
+.navsections .navmidside .navlinks {
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5rem;
+
+}
+
+.navsections .navmidside .navlinks a {
+    color: var(--titlecolot);
+    margin-left: 1rem;
+    cursor: url(carser3.png), auto;
+}
+
+.navsections .navrightside .navbuttons {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.navsections .navrightside .navbuttons a {
+    font-size: 20px;
+    color: var(--titlecolot);
+    cursor: url(carser3.png), auto;
+}
+
+.navsections .navrightside .navbuttons a:hover {
+    color: rgb(255, 10, 51);
+    transition: all 0.4s;
+
+
+}
+
+.nav-links{
+    display: flex;
+}
+
+
+
+/* navbar styling start here  */
+
+
+
+#redgo {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: var(--navbarcolor) !important;
+}
+
+nav .container-fluid .collapse span {
+    display: flex;
+
+
+}
+
+nav .container-fluid .collapse span a {
+    color: var(--iconcolor);
+    cursor: url(carser3.png), auto;
+}
+
+nav .container-fluid .navbar-brand {
+    font-family: 'General Sans', sans-serif;
+    width: 400;
+    font-size: 20px;
+    color: var(--logocolor);
+    cursor: url(carser3.png), auto;
+}
+
+#navbarText ul li a:hover {
+    color: #FF000F;
+    transition: all 0.4s;
+    cursor: url(carser4.png), auto;
+}
+
+
+
+nav .container-fluid .collapse span a:hover {
+    color: #FF000F;
+    transition: all 0.4s;
+    cursor: url(carser3.png), auto;
+}
+
+nav .container-fluid .collapse span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* herosection styling start here  */
+
+.ourherosection {
+    display: flex;
+    width: 100%;
+    /* background-color: lawngreen; */
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ourherosection .hero-tital {
+
+
+    width: 1171px;
+    height: 287px;
+
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+
+    color: var(--titlecolot);
+}
+
+.herocestion-icon {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    /* background-color: blueviolet; */
+    color: var(--titlecolot);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.herocestion-icon a:hover {
+    color: #FF000F;
+    transition: all 0.4s;
+}
+
+
+.herocestion-icon a svg {
+    color: var(--titlecolot);
+    width: 30px;
+    height: 30px
+}
+
+
+/* main image section  */
+
+.main-img img {
+    border-radius: 4px;
+}
+
+.mainsection {
+    padding: 0 1rem;
+    cursor: url(carser3.png), auto;
+}
+
+
+/* footer styling start here  */
+#instragram{
+    color: #0d6efd;
+}
+
+footer {
+    background-color: var(--footerbodycolor);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* description title styling start here  */
+
+.description {
+    display: flex;
+    width: 100%;
+    /* background-color: lawngreen; */
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.description .description-paragrap {
+
+
+    width: 100%;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    height: inherit;
+    margin-bottom: 2rem;
+    color: var(--titlecolot);
+}
+
+
+.description-icon {
+    display: flex;
+    width: 97%;
+    height: 6rem;
+    /* background-color: blueviolet; */
+    color: var(--titlecolot);
+    justify-content: flex-end;
+    align-items: flex-start;
+    cursor: url(carser3.png), auto;
+}
+
+.description-icon a svg {
+    color: var(--titlecolot);
+    width: 30px;
+    height: 30px
+}
+
+
+/* design section styling start here page-1  */
+
+.ourdesignsection {
+    padding: 0 5rem;
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(252, 92, 0); */
+    height: inherit;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 4rem;
+
+}
+
+.ourdesignsection .design-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 90%;
+    height: inherit;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: start;
+    color: var(--titlecolot);
+    margin-bottom: 1rem;
+}
+
+.ourdesignsection-paragrap {
+    padding: 0 5rem;
+    display: flex;
+    width: 100%;
+    /* background-color: lawngreen; */
+    height: inherit;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.ourdesignsection-paragrap .design-paragarp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    /* height: 183px; */
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--titlecolot);
+
+
+
+}
+
+.ourdesignsection-paragrap .design-paragarp a {
+    color: rgb(115, 28, 255);
+    cursor: url(carser3.png), auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* form section  */
+.formsetion {
+    /* padding: 0 2rem; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+
+}
+
+
+form .form-group-1 input,
+form .form-group-2 input,
+form .form-group-3 input {
+    width: 1187px;
+    height: 90px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+form .form-group-1 label,
+form .form-group-2 label,
+form .form-group-3 label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--titlecolot);
+}
+
+form .form-group-1 ::placeholder,
+form .form-group-2 ::placeholder,
+form .form-group-3 ::placeholder {
+    opacity: 0;
+}
+
+.formbutton {
+    margin-top: 2rem;
+}
+
+.formbutton button {
+    width: 219px;
+    height: 80px;
+
+    background: #1E76FF;
+    border-radius: 20px;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+
+
+/* form strat here */
+
+.from-section form {
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* contact styling start here  */
+
+.ourherosectionform {
+    display: flex;
+    width: 100%;
+    /* background-color: lawngreen; */
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ourherosectionform .heroform-tital {
+    width: 1171px;
+    height: 287px;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: var(--titlecolot);
+}
+
+
+.descriptionform {
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(252, 113, 0); */
+    height: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.descriptionform .descriptionform-paragrap {
+    width: 1171px;
+    height: 287px;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: var(--titlecolot);
+}
+
+
+
+/* about section start here  */
+.ds-section-about {
+    padding: 0 5rem;
+    /* background-color: lawngreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.ds-section-about .description-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+
+}
+
+.ds-section-about .description-about h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--titlecolot);
+}
+
+.ds-section-about .description-about p {
+    width: 1171px;
+    height: 85px;
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--titlecolot);
+}
+
+
+
+/* about section paragrap */
+
+#para-1 {
+    width: 1171px;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 6rem;
+
+
+}
+
+#para-2 {
+    width: 1171px;
+    height: 450px;
+    font-size: 25px;
+    font-weight: 300;
+
+
+}
+
+#para-3 {
+    width: 1171px;
+    height: 525px;
+    font-size: 25px;
+    font-weight: 300;
+
+
+}
+
+#para-4 {
+    width: 1171px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: 300;
+
+
+}
+
+#para-5 {
+    width: 1171px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10rem;
+}
+
+
+.homesectionform-1 .description-1 {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homesectionform-1 .description-1 .description-paragrap-1 {
+    width: 1050px;
+    height: 180px;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'General Sans', sans-serif;
+    color: var(--titlecolot);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+}
+
+
+/* work section start here */
+
+.worksectiontitle {
+    width: 100%;
+    height: inherit;
+}
+
+.worksectiontitle .worksectiontitlemain {
+    padding: 0 4rem;
+    width: 100%;
+    height: inherit;
+
+
+    /* font-family: 'General Sans', sans-serif; */
+
+    font-family: 'Clash Display', sans-serif;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--titlecolot);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: 8rem;
+}
+
+.worksectiontitle .worksectiontitlemain p {
+    width: 70%;
+}
+
+
+.worksectionmain {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.workbody1 {
+    width: 100%;
+    height: 5rem;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+#rre66 {
+    border-bottom: none;
+}
+
+
+.workbody2 {
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #555;
+    display: flex;
+    align-items: center;
+}
+
+.workbody3 {
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #555;
+    display: flex;
+    align-items: center;
+}
+
+.workbody4 {
+    width: 100%;
+    height: 5rem;
+    /* border-bottom: 1px solid #555; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.workbody a {
+
+    font-family: 'Clash Display', sans-serif;
+    font-size: 30px;
+    padding: 0 4rem;
+    cursor: url(carser3.png), auto;
+
+
+}
+
+
+
+
+/* collaps styling */
+
+button.accordion-button.collapsed {
+    background-color: var(--primarycolor) !important;
+    border-bottom: 1px solid #555;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--titlecolot);
+    cursor: url(carser3.png), auto;
+ 
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: var(--primarycolor) !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    cursor: url(carser3.png), auto;
+ 
+}
+
+.accordion-header {
+    margin-bottom: 0;
+    height: inherit;
+    width: 100%;
+    font-family: 'General Sans', sans-serif;
+    color: var(--titlecolot);
+    cursor: url(carser3.png), auto;
+
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--titlecolot);
+    border-bottom: 1px solid #555;
+    cursor: url(carser3.png), auto;
+   
+}
+
+.accordion-body{
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--titlecolot);
+    background-color: var(--primarycolor);
+    cursor: url(carser3.png), auto;
+
+}
+
+.arrow {
+    padding: 0 4rem;
+    margin-bottom: 6rem;
+  
+}
+
+#fottercaston{
+    position: relative;
+}
+
+.alpha{
+    margin-bottom: 4rem;
+}
+
+
+
+.alpha2{
+    border-bottom: none;
+}
+
+#flush-headingfive{
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsiveness start here  */
+
+@media (min-width: 300px) and (max-width: 424px) {
+
+    /* my castom nav */
+    #hadersection {
+        display: none;
+    }
+
+
+
+    #welcome-t {
+        height: inherit;
+        margin-top: 3rem;
+        padding: 0 0.5rem;
+    }
+
+    #welcome-p {
+        height: inherit;
+    }
+
+    #welcome-i {
+        margin-top: 2rem;
+        display: none;
+    }
+
+    nav .container-fluid .navbar-brand {
+        font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        color: var(--logocolor);
+        margin-left: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        margin-left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+
+    .mainsection {
+        padding: 0 1rem;
+    }
+
+
+
+
+
+    .ourherosection .hero-tital {
+
+
+        width: 1171px;
+        height: 60px;
+
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: start;
+    }
+
+    .homesection .herocestion-icon {
+        margin-top: 6rem;
+    }
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 100%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .ourdesignsection {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        /* background-color: rgb(252, 92, 0); */
+        height: inherit;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 1rem;
+
+    }
+
+    .ourdesignsection .design-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 25px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+
+    /* about section paragrap */
+    #para-1 {
+        padding: 0 8rem;
+        width: 514px;
+        height: 100px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 28rem;
+
+
+    }
+
+    #para-2 {
+        padding: 0 8rem;
+        width: 514px;
+        height: 1000px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 24rem;
+
+
+    }
+
+    #para-3 {
+        padding: 0 8rem;
+        width: 514px;
+        height: 1300px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 20rem;
+
+
+    }
+
+    #para-4 {
+        padding: 0 8rem;
+        width: 514px;
+        height: 500px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 8rem;
+
+
+    }
+
+    #para-5 {
+        padding: 0 8rem;
+        width: 514px;
+        height: 400px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 10rem;
+    }
+
+    .ds-section-about .description-about h1 {
+        height: 60px;
+        width: 450px;
+        padding: 0 6rem;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+
+    .ourdesignsection-paragrap {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .ourdesignsection-paragrap .design-paragarp {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 24px;
+        color: var(--titlecolot);
+
+
+    }
+
+
+
+
+
+
+    /* form section  */
+    .formsetion {
+        /* padding: 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+
+    }
+
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 300px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+
+    form .form-group-1 label,
+    form .form-group-2 label,
+    form .form-group-3 label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        text-align: center;
+        margin: 0;
+        color: var(--titlecolot);
+    }
+
+
+
+    .formbutton {
+        margin-top: 1rem;
+    }
+
+    .formbutton button {
+        width: 150px;
+        height: 50px;
+
+        background: #1E76FF;
+        border-radius: 10px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin-bottom: 8rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 100px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    /* castom contact section */
+
+
+    .worksectiontitle .worksectiontitlemain {
+        padding: 0 1rem;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--titlecolot);
+        font-size: 50px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 60px;
+        margin-top: 3rem;
+    }
+
+
+    .worksectiontitle .worksectiontitlemain p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+    .worksectionmain {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+
+    .workbody a {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 20px;
+        padding: 0 1.5rem;
+        cursor: url(carser3.png), auto;
+    }
+
+
+    /* FAQ castom */
+
+    .accordion-flush .accordion-item .accordion-button {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        border-bottom: 1px solid #555;
+        cursor: url(carser3.png), auto;
+    }
+
+    .arrow {
+        padding: 0 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .accordion-body {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        background-color: var(--primarycolor);
+        cursor: url(carser3.png), auto;
+    }
+
+
+    /* FAQ castom */
+
+    .accordion-flush .accordion-item .accordion-button {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        border-bottom: 1px solid #555;
+        cursor: url(carser3.png), auto;
+    }
+
+    .arrow {
+        padding: 0 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .accordion-body {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        background-color: var(--primarycolor);
+        cursor: url(carser3.png), auto;
+    }
+
+
+
+
+
+
+
+}
+
+/* @media (min-width: 310px) and (max-width: 500px) { */
+
+@media (min-width: 425px) and (max-width: 500px) {
+
+    /* my castom nav */
+    #hadersection {
+        display: none;
+    }
+
+
+    #welcome-t {
+        height: inherit;
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+
+    #welcome-p {
+        height: inherit;
+    }
+
+    #welcome-i {
+        margin-top: 2rem;
+        display: none;
+    }
+
+    * {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainsection {
+        padding: 0 1rem;
+    }
+
+    nav .container-fluid .navbar-brand {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        color: var(--logocolor);
+        margin-left: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        margin-left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+
+    .mainsection {
+        padding: 0 1rem;
+    }
+
+    .ourherosection {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        padding: 0 1rem;
+
+    }
+
+    .ourherosection .hero-tital {
+
+
+        width: 1171px;
+        height: 160px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: start;
+    }
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 95%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+    }
+
+    .ourdesignsection {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        /* background-color: rgb(252, 92, 0); */
+        height: inherit;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 3rem;
+
+    }
+
+    .ourdesignsection .design-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 25px;
+        text-align: start;
+        color: var(--titlecolot);
+        /* margin-top: 2rem; */
+        margin-bottom: 2rem;
+    }
+
+
+    /* about section paragrap */
+    #para-1 {
+        padding: 0 6rem;
+        width: 580px;
+        height: 100px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20rem;
+
+
+
+    }
+
+    #para-2 {
+        padding: 0 7rem;
+        width: 600px;
+        height: 1200px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-3 {
+        padding: 0 7rem;
+        width: 580px;
+        height: 1500px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-4 {
+        padding: 0 7rem;
+        width: 580px;
+        height: 600px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-5 {
+        padding: 0 7rem;
+        width: 580px;
+        height: 300px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 10rem;
+    }
+
+    .ds-section-about .description-about h1 {
+        height: 60px;
+        width: 450px;
+        padding: 0 2rem;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+
+    .ourdesignsection-paragrap {
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .ourdesignsection-paragrap .design-paragarp {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: var(--titlecolot);
+
+
+    }
+
+    /* form section  */
+    .formsetion {
+        /* padding: 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+
+    }
+
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 350px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+
+    form .form-group-1 label,
+    form .form-group-2 label,
+    form .form-group-3 label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        text-align: center;
+        margin: 0;
+        color: var(--titlecolot);
+    }
+
+
+
+    .formbutton {
+        margin-top: 1rem;
+    }
+
+    .formbutton button {
+        width: 150px;
+        height: 50px;
+
+        background: #1E76FF;
+        border-radius: 10px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 100px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    /* castom contact start here */
+
+
+    .worksectiontitle .worksectiontitlemain {
+        padding: 0 1rem;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--titlecolot);
+        font-size: 50px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 60px;
+        margin-top: 4rem;
+    }
+
+
+
+    .worksectiontitle .worksectiontitlemain p {
+        width: 100%;
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .workbody a {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 23px;
+        padding: 0 2rem;
+        cursor: url(carser3.png), auto;
+    }
+
+
+    .worksectionmain {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    /* FAQ castom */
+
+    .accordion-flush .accordion-item .accordion-button {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        border-bottom: 1px solid #555;
+        cursor: url(carser3.png), auto;
+    }
+
+    .arrow {
+        padding: 0 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .accordion-body {
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--titlecolot);
+        background-color: var(--primarycolor);
+        cursor: url(carser3.png), auto;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 501px) and (max-width: 770px) {
+
+    /* my castom nav */
+    #hadersection {
+        display: none;
+    }
+
+    #welcome-t {
+        height: inherit;
+        margin-top: 3rem;
+        padding: 0 1rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+
+    #welcome-p {
+        height: inherit;
+    }
+
+    #welcome-i {
+        margin-top: 2rem;
+        display: none;
+    }
+
+
+    nav .container-fluid .navbar-brand {
+        font-family: 'General Sans', sans-serif;
+
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        margin-left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+
+    .mainsection {
+        padding: 0 1rem;
+    }
+
+    .ourherosection {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: 30rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ourherosection .hero-tital {
+
+
+        width: 1171px;
+        height: 37px;
+
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+
+    .ourdesignsection {
+        padding: 0 2rem;
+        display: flex;
+        width: 100%;
+        /* background-color: rgb(252, 92, 0); */
+        height: inherit;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .ourdesignsection .design-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-bottom: 2rem;
+    }
+
+
+    /* about section paragrap */
+    #para-1 {
+        padding: 0 10rem;
+        width: 1000px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+
+    }
+
+    #para-2 {
+        padding: 0 10rem;
+        width: 1000px;
+        height: 530px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-3 {
+        padding: 0 10rem;
+        width: 1000px;
+        height: 650px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-4 {
+        padding: 0 10rem;
+        width: 1000px;
+        height: 200px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-5 {
+        padding: 0 10rem;
+        width: 1000px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 10rem;
+    }
+
+
+
+    .ourdesignsection-paragrap {
+        padding: 0 2rem;
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+
+    .ourdesignsection-paragrap .design-paragarp {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--titlecolot);
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 100px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 120px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 27px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 80%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+    }
+
+
+    /* form section  */
+    .formsetion {
+        /* padding: 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+
+    }
+
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 350px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+
+    form .form-group-1 label,
+    form .form-group-2 label,
+    form .form-group-3 label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        text-align: center;
+        margin: 0;
+        color: var(--titlecolot);
+    }
+
+
+
+    .formbutton {
+        margin-top: 1rem;
+    }
+
+    .formbutton button {
+        width: 150px;
+        height: 50px;
+
+        background: #1E76FF;
+        border-radius: 10px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 100px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    /* work secrion here */
+    .worksectiontitle .worksectiontitlemain p {
+        width: 100%;
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    .worksectiontitle .worksectiontitlemain {
+        padding: 0 2rem;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--titlecolot);
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 50px;
+        margin-top: 8rem;
+    }
+
+    .workbody a {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 30px;
+        padding: 0 4rem;
+        cursor: url(carser3.png), auto;
+    }
+
+    .arrow {
+        padding: 0 2rem;
+        margin-bottom: 6rem;
+    }
+
+
+
+
+
+}
+
+
+
+@media (min-width: 700px) and (max-width: 800px) {
+
+    /* my castom nav */
+    #hadersection {
+        display: none;
+    }
+
+    #welcome-t {
+        height: inherit;
+        margin-top: 3rem;
+        padding: 0 1rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+
+    #welcome-p {
+        height: inherit;
+    }
+
+    #welcome-i {
+        margin-top: 2rem;
+        display: none;
+    }
+
+    /* form section  */
+    .formsetion {
+        /* padding: 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+
+    }
+
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 650px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+
+    form .form-group-1 label,
+    form .form-group-2 label,
+    form .form-group-3 label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        text-align: center;
+        margin: 0;
+        color: var(--titlecolot);
+    }
+
+
+
+    .formbutton {
+        margin-top: 1rem;
+    }
+
+    .formbutton button {
+        width: 150px;
+        height: 50px;
+
+        background: #1E76FF;
+        border-radius: 10px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1050px;
+        height: 120px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 27px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    .ourdesignsection {
+        padding: 0 2rem;
+        display: flex;
+        width: 100%;
+        /* background-color: rgb(252, 92, 0); */
+        height: inherit;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .ourdesignsection .design-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-bottom: 2rem;
+    }
+
+    .ourdesignsection-paragrap {
+        padding: 0 2rem;
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+
+    .ourdesignsection-paragrap .design-paragarp {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--titlecolot);
+    }
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 100%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+    }
+
+    .workbody a {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 30px;
+        padding: 0 4rem;
+        cursor: url(carser3.png), auto;
+    }
+
+    .arrow {
+        padding: 0 2rem;
+        margin-bottom: 6rem;
+    }
+
+
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+
+    #welcome-t {
+        height: inherit;
+        margin-top: 3rem;
+        padding: 0 1rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+
+    #welcome-p {
+        height: inherit;
+        font-size: 32px;
+        line-height: 34px;
+
+        width: 80%;
+    }
+
+    #welcome-i {
+        margin-top: 2rem;
+        display: none;
+
+    }
+
+
+    .ourdesignsection {
+        padding: 0 4rem;
+        display: flex;
+        width: 100%;
+        /* background-color: rgb(252, 92, 0); */
+        height: inherit;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+    .ourdesignsection .design-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-bottom: 2rem;
+    }
+
+    .ourdesignsection-paragrap {
+        padding: 0 4rem;
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+    .ourdesignsection-paragrap .design-paragarp {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: var(--titlecolot);
+
+
+    }
+
+    /* about section paragrap */
+    #para-1 {
+        padding: 0 8rem;
+        width: 1171px;
+        height: 10px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-2 {
+        padding: 0 8rem;
+        width: 1171px;
+        height: 380px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-3 {
+        padding: 0 8rem;
+        width: 1171px;
+        height: 500px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-4 {
+        padding: 0 8rem;
+        width: 1171px;
+        height: 120px;
+        font-size: 20px;
+        font-weight: 300;
+
+
+    }
+
+    #para-5 {
+        padding: 0 8rem;
+        width: 1171px;
+        height: 45px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 10rem;
+    }
+
+
+    /* form section  */
+    .formsetion {
+        /* padding: 0 2rem; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20rem;
+        align-items: center;
+
+    }
+
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 900px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+
+    form .form-group-1 label,
+    form .form-group-2 label,
+    form .form-group-3 label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 47px;
+        text-align: center;
+        margin: 0;
+        color: var(--titlecolot);
+    }
+
+
+
+    .formbutton {
+        margin-top: 1rem;
+    }
+
+    .formbutton button {
+        width: 150px;
+        height: 50px;
+
+        background: #1E76FF;
+        border-radius: 10px;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+
+    /* about description */
+
+    .homesectionform-1 .description-1 {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5rem;
+
+    }
+
+    .homesectionform-1 .description-1 .description-paragrap-1 {
+        width: 1000px;
+        height: 100px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        color: var(--titlecolot);
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 80%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+    }
+
+
+    /* work secrion here */
+    .worksectiontitle .worksectiontitlemain p {
+        width: 90%;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .worksectiontitle .worksectiontitlemain {
+        padding: 0 0rem;
+        width: 100%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--titlecolot);
+        font-size: 50px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 60px;
+        margin-top: 8rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 424px) {
+
+    form .form-group-1 input,
+    form .form-group-2 input,
+    form .form-group-3 input {
+        width: 330px;
+        height: 60px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+/* for castom work secton */
+
+@media (min-width: 1000px) and (max-width: 1900px) {
+    .worksectiontitle .worksectiontitlemain p {
+        width: 90%;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 10000px) {
+    nav .container-fluid {
+        display: flex;
+    }
+
+    .container-fluid {
+        margin: 0rem 2rem 0rem 2rem;
+    }
+
+    nav .container-fluid .collapse ul {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        justify-content: center;
+        margin-left: 10rem;
+    }
+
+    .collapse ul li {
+        margin-left: 2rem;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .mainsection {
+        padding: 0 4rem;
+    }
+
+    .description {
+        display: flex;
+        width: 100%;
+        /* background-color: lawngreen; */
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0 4rem;
+
+    }
+
+    .description .description-paragrap {
+
+
+        width: 100%;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+        height: inherit;
+        margin-bottom: 2rem;
+        color: var(--titlecolot);
+    }
+
+    /* .ourdesignsection-paragrap {
+        padding: 0 5rem;
+        display: flex;
+        width: 100%;
+        background-color: lawngreen;
+        height: 12rem;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    } */
+
+
+
+}
+
+
+
+/* spacial resizing for nav bar here */
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+
+    /* my custom nav here */
+    .navsections {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid #555;
+        font-family: 'General Sans', sans-serif;
+    }
+
+    .navsections .navleftside {
+        font-family: 'General Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        padding: 1rem 4rem;
+    }
+
+    .navsections .navleftside .navlogo {
+        color: var(--logocolor);
+    }
+
+    .navsections .navmidside {
+
+        padding: 1rem 0;
+        display: flex;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        /* background-color: lawngreen; */
+    }
+
+    .navsections .navmidside .navlinks {
+        font-family: 'General Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0.5rem;
+
+    }
+
+    .navsections .navmidside .navlinks a {
+        color: var(--titlecolot);
+        margin-left: 1rem;
+        cursor: url(carser3.png), auto;
+    }
+
+    .navsections .navrightside .navbuttons {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 3rem;
+    }
+
+    .navsections .navrightside .navbuttons a {
+        font-size: 18px;
+
+    }
+
+
+
+
+
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1450px) {
+
+
+    .worksectiontitle .worksectiontitlemain p {
+        width: 90%;
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* popup js css  */
+
+button.mfp-arrow.mfp-arrow-right.mfp-prevent-close {
+    opacity: 0;
+}
+
+button.mfp-arrow.mfp-arrow-left.mfp-prevent-close {
+    opacity: 0;
+}
+
+img {
+    border-radius: 4px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+
+
+
+  /* brand colurobation styling */
+
+  .brandparagrap .brandparabody{
+      color: var(--titlecolot);
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

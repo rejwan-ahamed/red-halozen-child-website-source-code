@@ -1,0 +1,878 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.brandparagrap {
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.brandparagrap .brandparabody {
+    font-family: 'General Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    width: 70%;
+    height: inherit;
+    margin-top: 10rem;
+    z-index: 2;
+
+}
+
+
+.ourdesignsection .design-title1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 70%;
+    height: inherit;
+    font-family: 'General Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 90px;
+    text-align: start;
+    color: var(--titlecolot);
+    margin-top: 2rem;
+    z-index: 81;
+}
+
+
+.bgblur {
+    /* padding: 0 2rem; */
+    width: 100%;
+    height: inherit;
+
+
+}
+
+.bgblur .bgblur1 span {
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: 30rem;
+    top: 483px;
+
+    background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+    filter: blur(100px);
+    z-index: -15;
+}
+
+
+.bgblur .bgblur2 span {
+
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: 60rem;
+    top: 282px;
+
+    background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+    filter: blur(100px);
+    z-index: -13;
+
+}
+
+.shotout {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+#shout {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+}
+
+
+#shout img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    z-index: 2;
+    margin-bottom: 6rem;
+}
+
+#shoutop {
+    margin-top: -2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive ness */
+
+@media (min-width: 300px) and (max-width: 349px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 35px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 2rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 4rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        top: 25rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(50px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        /* top: 282px; */
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(50px);
+        z-index: -13;
+    }
+
+
+
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 350px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 35px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 2rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 4rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        top: 25rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(50px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        /* top: 282px; */
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(50px);
+        z-index: -13;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 351px) and (max-width: 424px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 40px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 2rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 4rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        top: 27rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(50px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 5rem;
+        /* top: 282px; */
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(50px);
+        z-index: -13;
+
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 500px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 50px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 1rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 4rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        top: 27rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(50px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 5rem;
+        /* top: 282px; */
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(50px);
+        z-index: -13;
+
+    }
+
+
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 600px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 1rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 4rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 1rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        left: 0;
+        top: 27rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(50px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 5rem;
+        /* top: 282px; */
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(50px);
+        z-index: -13;
+
+    }
+
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 800px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 1rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 0rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 6rem;
+    }
+
+    .shotout {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 6rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 310px;
+        height: 310px;
+        left: 0rem;
+        top: 11rem;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(60px);
+        z-index: -15;
+    }
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 19rem;
+        top: 8rem;
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(90px);
+        z-index: -13;
+
+    }
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1030px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 90%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 70px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 1rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 2rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 6rem;
+    }
+
+    .shotout {
+        margin-top: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 6rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 510px;
+        height: 510px;
+        left: 0rem;
+        top: 11rem;
+        border-radius: 50%;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(80px);
+        z-index: -15;
+    }
+
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 28rem;
+        top: 18rem;
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(80px);
+        border-radius: 50%;
+        z-index: -13;
+    }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    .ourdesignsection .design-title1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 80%;
+        height: inherit;
+        font-family: 'General Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: start;
+        color: var(--titlecolot);
+        margin-top: 1rem;
+        z-index: 81;
+    }
+
+
+    .brandparagrap .brandparabody {
+        font-family: 'General Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        width: 100%;
+        height: inherit;
+        margin-top: 2rem;
+        z-index: 2;
+    }
+
+
+    #shout img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        z-index: 2;
+        margin-bottom: 6rem;
+    }
+
+    .shotout {
+        margin-top: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0 15rem;
+    }
+
+
+
+
+    .brandparagrap {
+        padding: 0px 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: inherit;
+    }
+
+    .bgblur .bgblur1 span {
+        position: absolute;
+        width: 510px;
+        height: 510px;
+        left: 20%;
+        top: 11rem;
+        border-radius: 50%;
+        background: linear-gradient(152.94deg, #FFFFFF -3.66%, #D88100 94.04%);
+        filter: blur(100px);
+        z-index: -15;
+    }
+
+
+
+    .bgblur .bgblur2 span {
+
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 50%;
+        top: 18rem;
+        background: linear-gradient(200.71deg, #B213EA 4.53%, #7000FF 96.17%);
+        filter: blur(100px);
+        border-radius: 50%;
+        z-index: -13;
+    }
+
+}

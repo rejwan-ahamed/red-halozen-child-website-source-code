@@ -1,0 +1,22 @@
+google firebase verifacition 
+
+txt: redhalogen.xyz
+
+value: google-site-verification=1Ostnfss1didMSIBD17d0quS31u6jaMSt5_6zj1IKUA
+
+
+
+
+redhalogen.xyz A records 
+
+host: redhalogen.xyz
+
+values: 199.36.158.100
+
+
+
+www.redhalogen A records
+
+host: www.redhalogen.xyz
+
+values: 199.36.158.100

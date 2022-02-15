@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /cgi-bin/
+Allow: /images/
+Allow: /images/design1.jpg
+Allow: /images/design5.jpg
+Allow: /images/design7.jpg
+Allow: /pages/thankyou.html
